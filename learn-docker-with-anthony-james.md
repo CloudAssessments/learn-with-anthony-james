@@ -8,7 +8,6 @@ Quest story line proposal: April has started working for a startup that has a mo
 * About this course // Want to cover the depth of the quest/course and what we hope to accomplish and why it matters to your development and how it solves caling and business problems
 * About Anthony James // Only if you want
 * What we will accomplish in this quest // Will show the working application, that we will be building through the quest and then work backwards
-
 * History of containers
 
 # Acitivity 1: Getting Started With Docker
@@ -20,6 +19,17 @@ Quest story line proposal: April has started working for a startup that has a mo
 * Artechecture accomplishment overview // Now that you are running your first application lets talk about how it works and why
 Challenge Activity: Will present the student with a vm, the challenge will be to get docker setup and running and pull down the application from the public docker repository.
 
+# Activity 2: Dockerizing our node.js application
+* Application overview and github // Will walk through the "single container version" of the  application. We will get to building the multi-container version but to keep concepts simple here we won't have that.
+* Defining the container with the Dockerfile // Learn how to build the docker file and attributes within the docker file to run the application. We'll also probably mention briefly how this concept works as service
+* Building application container // Build the image, run, make change, learn to clear cache, build again, then delete images.
+* Tagging // Wonderful world of tagging and name spaces
+* Optional: uploading the image to your personal repository // Take your work home with you if you want. 
+Challenge Activity: Will present the student with a Docker container and the proper application files for dockerizing. 
+
+# Activity 3: Building services with Docker compose
+* What are container services and how does Docker compose help
+* 
 
 
 # Activity N: This is the last activity it will be designed at introducing advanced concepts and will also be used as the first activity of the container deep dive quest.
