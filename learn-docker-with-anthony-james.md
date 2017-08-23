@@ -32,10 +32,10 @@ Challenge Activity: Will present the student with a Docker container and the pro
 * 
 
 # Activity 4: Monolithic vs Service oritened ahrecture
-How containers solve scaling and business problems
-How micro services work with containers
-Migrating and running monolithic applications with containers
-Migrating monolithic applications to micro service oriented architecture.
-Service structure concepts for containers
+* How containers solve scaling and business problems
+* How micro services work with containers
+* Migrating and running monolithic applications with containers
+* Migrating monolithic applications to micro service oriented architecture.
+* Service structure concepts for containers
 
 # Activity N: This is the last activity it will be designed at introducing advanced concepts and will also be used as the first activity of the container deep dive quest.
