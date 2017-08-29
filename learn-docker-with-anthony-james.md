@@ -32,7 +32,6 @@ Challenge Activity: Will present the student with a Docker container and the pro
 
 # Activity 3: Building services with Docker compose
 * What are container services and how does Docker compose help
-* Quick Basics of YAML // general outline structure of YAML and how the indentation and association work
 
 # Activity 4: Monolithic vs Service Oriented Architecture 
 * How containers solve scaling and business problems
