@@ -14,7 +14,7 @@ Quest story line proposal: April has started working for a startup that has a mo
 * History of containers // Quick run down of the history of containers (I'm worried this is to boring, thoughts?)
 * Micro services, containers, and vm's o' my! // Describe what problems containers solve and how the solve them.
 * Connecting to docker hub
-* Running docker images // We will pull a docker image with our demo app from a public repo and run it. Goal is to get into "doing stuff" first and then back into building it from scratch
+* Running docker images // We will pull a docker image with our demo app from a public repo and run it. Goal is to get into "doing stuff" first and then back into building it from scratch - Basic of docker run command, detached mode etc
 * Understanding Docker caching // We'll make a change to our docker file and look at docker "layering"
 * Artechecture accomplishment overview // Now that you are running your first application lets talk about how it works and why
 Challenge Activity: Will present the student with a vm, the challenge will be to get docker setup and running and pull down the application from the public docker repository.
@@ -31,11 +31,15 @@ Challenge Activity: Will present the student with a Docker container and the pro
 * What are container services and how does Docker compose help
 * 
 
-# Activity 4: Monolithic vs Service oritened ahrecture
+# Activity 4: Monolithic vs Service oritened Architecture 
 * How containers solve scaling and business problems
 * How micro services work with containers
 * Migrating and running monolithic applications with containers
 * Migrating monolithic applications to micro service oriented architecture.
 * Service structure concepts for containers
+
+# Activity 5: Docker Networking
+
+# Acitivty 6: Pushing to docker repositories 
 
 # Activity N: This is the last activity it will be designed at introducing advanced concepts and will also be used as the first activity of the container deep dive quest.
