@@ -42,4 +42,10 @@ Challenge Activity: Will present the student with a Docker container and the pro
 
 # Acitivty 6: Pushing to docker repositories 
 
+# Activity 7: Container privileges
+
+
 # Activity N: This is the last activity it will be designed at introducing advanced concepts and will also be used as the first activity of the container deep dive quest.
+* Kubernetes 
+* Docker Swarm
+* Cloud Container Orchestration 
