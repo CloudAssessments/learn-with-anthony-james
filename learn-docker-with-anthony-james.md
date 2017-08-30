@@ -12,11 +12,12 @@ Quest story line proposal: April has started working for a startup that has a mo
 
 # Acitivity 1: Getting Started With Docker
 * History of containers // Quick run down of the history of containers (I'm worried this is to boring, thoughts?)
+* Working with Docker Hub image repository // show how to find 'official' images and how they typically make the associated 'Dockerfile' used to build it in Github
 * Micro services, containers, and vm's o' my! // Describe what problems containers solve and how the solve them.
 * Connecting to docker hub
 * Running docker images // We will pull a docker image with our demo app from a public repo and run it. Goal is to get into "doing stuff" first and then back into building it from scratch - Basic of docker run command, detached mode etc
 * Understanding Docker caching // We'll make a change to our docker file and look at docker "layering"
-* Artechecture accomplishment overview // Now that you are running your first application lets talk about how it works and why
+* Architecture accomplishment overview // Now that you are running your first application lets talk about how it works and why
 Challenge Activity: Will present the student with a vm, the challenge will be to get docker setup and running and pull down the application from the public docker repository.
 
 # Activity 2: Dockerizing our node.js application
@@ -24,14 +25,15 @@ Challenge Activity: Will present the student with a vm, the challenge will be to
 * Defining the container with the Dockerfile // Learn how to build the docker file and attributes within the docker file to run the application. We'll also probably mention briefly how this concept works as service
 * Building application container // Build the image, run, make change, learn to clear cache, build again, then delete images.
 * Tagging // Wonderful world of tagging and name spaces
+* Port Redirection // Accessing your container by redirecting the container's listening ports to a port on the underlying host 
+* Volume Redirection // Perform builds/change files/update configurations by mounting the underlying host directory to a key location inside your container
 * Optional: uploading the image to your personal repository // Take your work home with you if you want. 
 Challenge Activity: Will present the student with a Docker container and the proper application files for dockerizing. 
 
 # Activity 3: Building services with Docker compose
 * What are container services and how does Docker compose help
-* 
 
-# Activity 4: Monolithic vs Service oritened Architecture 
+# Activity 4: Monolithic vs Service Oriented Architecture 
 * How containers solve scaling and business problems
 * How micro services work with containers
 * Migrating and running monolithic applications with containers
@@ -39,13 +41,17 @@ Challenge Activity: Will present the student with a Docker container and the pro
 * Service structure concepts for containers
 
 # Activity 5: Docker Networking
+* Default Docker Networks // What networks are created by Docker by default and what are they for (docker network ls, inspect, create, rm)
+* Deprecation // Docker has deprecated the widely used --link now that container networks can be customized, important to know since many implementations still use and all current certifications still reference
 
-# Acitivty 6: Pushing to docker repositories 
+# Activity 6: Pushing to docker repositories 
 
 # Activity 7: Container privileges
 
-
-# Activity N: This is the last activity it will be designed at introducing advanced concepts and will also be used as the first activity of the container deep dive quest.
+# Activity N: This is the last activity it will be designed to introduce advanced concepts and will also be used as the first activity of the container deep dive quest.
+* Docker Storage // Illustrate the 'layering' method of building images and containers and how they are cached
+* Managing Containers and Images // Removing containers, removing images (and orphaning containers based on them)
+* Introduction to Docker Swarm // How swarm enhances Docker in a multi-container and node implementation
 * Kubernetes 
 * Docker Swarm
 * Cloud Container Orchestration 
