@@ -17,8 +17,31 @@ Quest story line proposal: April has started working for a startup that has a mo
 # Acitivity 1: Getting Started With Docker
 *
 * Running docker images // We will pull a docker image with our demo app from a public repo and run it. Goal is to get into "doing stuff" first and then back into building it from scratch - Basic of docker run command, detached mode etc
+** docker run, -d -i -name
+** docker ps -a
+** docker start
+** docker stop
+** docker restart
+** docker pause
+** docker unpause
+** docker wait
+** docker kill
+** docker attach
+** docker rename
+** docker exec
+
 * Understanding Docker caching // We'll make a change to our docker file and look at docker "layering"
 * Architecture accomplishment overview // Now that you are running your first application lets talk about how it works and why
+* Viewing information on docker containers 
+** docker ps 
+** docker logs
+** docker inspect
+** docker events
+** docker port
+** docker top
+** docker stats
+** docker diff
+
 Challenge Activity: Will present the student with a vm, the challenge will be to get docker setup and running and pull down the application from the public docker repository.
 
 # Activity 2: Dockerizing our node.js application
