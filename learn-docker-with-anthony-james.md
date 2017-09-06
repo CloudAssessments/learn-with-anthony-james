@@ -49,6 +49,8 @@ Challenge Activity: Will present the student with a Docker container and the pro
 
 # Activity 7: Container privileges
 
+# Activity 8: Resource constraints
+
 # Activity N: This is the last activity it will be designed to introduce advanced concepts and will also be used as the first activity of the container deep dive quest.
 * Docker Storage // Illustrate the 'layering' method of building images and containers and how they are cached
 * Managing Containers and Images // Removing containers, removing images (and orphaning containers based on them)
